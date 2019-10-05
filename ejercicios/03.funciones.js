@@ -19,3 +19,12 @@
 
   Nota: Recuerda las palabras claves if, else y return
  */
+function hola(){
+  console.log("Hola!")
+}
+function resta(a,b){
+  return a-b
+}
+function vejez(edad){
+  return (edad >18 ? "Es adulto" : "No es adulto")
+}

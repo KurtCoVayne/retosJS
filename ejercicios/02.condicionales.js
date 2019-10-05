@@ -12,7 +12,7 @@
 const edadMayor = 88;
 let respuestaMayor;
 
-if (true) {
+if (edadMayor > 65) {
   respuestaMayor = 'Ya debe estar jubilado';
 }
 
@@ -24,7 +24,7 @@ if (true) {
 const edadMenor = -20;
 let respuestaMenor;
 
-if (false) {
+if (edadMenor < 0) {
   respuestaMenor = 'No ha nacido';
 }
 
@@ -36,7 +36,7 @@ if (false) {
 const edadCedula = 18;
 let respuestaCedula;
 
-if (false) {
+if (edadCedula >= 18) {
   respuestaCedula = 'Ya tiene cedula';
 }
 
@@ -53,7 +53,7 @@ const estaCansado = true;
 const tieneHambre = true;
 let respuestaBostezo;
 
-if (false) {
+if (estaCansado) {
   respuestaBostezo = 'Va a bostezar';
 }
 
@@ -65,6 +65,6 @@ const seQuedoDormido = true;
 const seLeOlvidoLaAlarma = true;
 let respuestaDormido;
 
-if (false) {
+if (seQuedoDormido) {
   respuestaDormido = 'Se quedo dormido';
 }

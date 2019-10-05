@@ -3,7 +3,11 @@
 */
 
 let persona;
-
+persona = {
+  nombre: 'John',
+  edad:15
+}
+persona.colegio = 'Concejo Medellin'
 /*
   En la variable "persona" guarda un objeto con tu nombre en una propiedad "nombre" y tu edad en una propiedad "edad"
   NOTA: Recuerda la estructura de los objetos en JavaScript:
